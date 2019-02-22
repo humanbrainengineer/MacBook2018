@@ -1,0 +1,4 @@
+Macbook之设置Finder显示文件完整路径
+终端里输入：defaults write com.apple.finder _FXShowPosixPathInTitle -bool TRUE;killall Finder
+
+回复输入：defaults delete com.apple.finder _FXShowPosixPathInTitle;killall Finder
